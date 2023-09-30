@@ -36,8 +36,7 @@ function Section3() {
       <div className='form-container'>
         <form onSubmit={handleSubmit}>
           <label htmlFor='email'>
-            Enter your email{' '}
-            <span className='required'>{isValidEmail ? '*' : 'Invalid Email'}</span>
+            Enter your email{' '}<span>*</span>
           </label>
           <div className='input-container'>
             <input
@@ -45,7 +44,7 @@ function Section3() {
               name='email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className={!isValidEmail ? 'invalid' : ''}
+              placeholder='enter your email...'
             />
             <button>Join</button>
           </div>

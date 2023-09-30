@@ -132,11 +132,15 @@ section{
                 input{
                     width: 370px;
                     height: 50px;
-                    // font-size: 16px;
+                    font-size: 16px;
                     padding: 0px 20px;
                     border-top-left-radius: 5px;
                     border-bottom-left-radius: 5px;
                     border: none;
+                    letter-spacing: 0.1rem;
+
+                    &::placeholder{
+                    }
 
                     &:focus{
                         outline: none;
