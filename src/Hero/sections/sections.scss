@@ -37,12 +37,8 @@ section{
     }
 
     .img-wrapper{
-        // padding: 0px 50px;
-        // max-height: 600px;
         img{
             margin-top: 50px;
-            // width: 600px;
-            // min-width: 300px;
         }
     }
 }
@@ -70,13 +66,13 @@ section{
 }
 .style-bottom-fade{
     position: absolute;
-    top: 60vh;
-    left: 50px;
-    width: 60px;
-    height: 60px;
+    top: 40vh;
+    left: 40px;
+    width: 80px;
+    height: 80px;
     border: none;
     border-radius: 50%;
-    box-shadow: 100px 100px 500px var(--color-primary);
+    box-shadow: 120px 120px 500px var(--color-primary);
     background-color: transparent
     
 }
