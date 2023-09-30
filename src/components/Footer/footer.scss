@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: var(--color-primary);
+    color: white;
+
+    .logo{
+        width: 150px;
+        filter: invert(160%);
+    }
+
+    p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .social-icons{
+        display: flex;
+        gap: 20px;
+
+        .icon{
+            font-size: 20px;
+        }
+    }
+}
